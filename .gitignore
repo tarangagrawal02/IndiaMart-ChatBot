@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Streamlit secrets (this app needs none, but never commit them)
+.streamlit/secrets.toml
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
